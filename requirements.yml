@@ -2,4 +2,9 @@
 collections:
   - name: cisco.ios
   source: https://galaxy.ansible.com
-  
+  - name: citrix.adc
+  source: https://galaxy.ansible.com
+  - name: ansible.windows
+  source: https://galaxy.ansible.com
+  - name: paloaltonetworks.panos
+  source: https://galaxy.ansible.com
