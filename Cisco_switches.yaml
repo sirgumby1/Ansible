@@ -1,0 +1,14 @@
+---
+- name: Cisco_playbook
+  hosts: all
+  gather_facts: true
+  tasks:
+          - name: run show version on remote device
+            cisco.ios.ios_command:
+                    commands:
+                            - show version
+          - name: show run on remote devices
+            become: true
+            cisco.ios.ios_command:
+                    commands:
+                            - show run 
